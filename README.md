@@ -1,2 +1,2 @@
 # burmese-voice
- A vocie command ai library for Burmese language
+ A speech command ai library for Burmese language
