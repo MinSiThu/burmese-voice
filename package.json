@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A vocie command ai library for Burmese language",
   "main": "./dist/index.js",
-  "src": "./src/index.js",
   "scripts": {
     "test": "node test.js",
-    "dev": "parcel ./src/example/index.html"
+    "dev": "vite ./example/index.html",
+    "build": "vite build"
   },
   "keywords": [
     "artificial_intelligence",
@@ -21,7 +21,6 @@
   "license": "MIT",
   "devDependencies": {
     "buffer": "^6.0.3",
-    "parcel": "^2.10.0",
     "process": "^0.11.10"
   }
 }
