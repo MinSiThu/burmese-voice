@@ -24,7 +24,7 @@
        function init(){
         burmeseVoice.listen((result)=>{
             console.log(result);
-            const voice = burmeseVoice.getLabelFromScores(result.scores);
+            const voice = burmeseVoice.getBestResult(result.scores);
             console.log(voice);
         });
        }
