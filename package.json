@@ -1,12 +1,10 @@
 {
   "name": "burmese-voice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vocie command ai library for Burmese language",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "dev": "vite ./example/index.html",
-    "build": "vite build"
+    "test": "node test.js"
   },
   "keywords": [
     "artificial_intelligence",

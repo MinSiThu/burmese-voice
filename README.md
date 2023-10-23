@@ -2,6 +2,8 @@
 
 A speech command ai library for Burmese language
 
+Read the documentation [Here](https://burmese-voice.vercel.app/).
+
 
 ## Using BurmeseVoice Model
 

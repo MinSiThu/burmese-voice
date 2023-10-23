@@ -4,44 +4,58 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Burmese Voice in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+First, install burmese-voice in browser with the following script tag.
+```html
+<script src="https://www.unpkg.com/burmese-voice"></script>
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Download the model package.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Download the model package [here](/).
 
-## Start your site
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Burmese Voice ai</title>
+  </head>
+  <body>
+      <h1>Burmese Voice</h1>
+      <button type="button" onclick="init()">Start</button>
+      <button type="button" onclick="stop()">Stop</button>
+      <div id="label-container"></div>
+      <script src="https://www.unpkg.com/burmese-voice"></script>
+      <script>
+          let burmeseVoice;
 
-Run the development server:
+        async function main(){
+          const URL = "http://localhost:8000/models/";
+          burmeseVoice = new BurmeseVoice(URL)
+          await burmeseVoice.load();
+          console.log(burmeseVoice.getLabels());
+        }
 
-```bash
-cd my-website
-npm run start
+        function init(){
+          burmeseVoice.listen((result)=>{
+              console.log(result);
+              const voice = burmeseVoice.getBestResult(result.scores);
+              console.log(voice);
+          });
+        }
+
+        function stop(){
+          burmeseVoice.stopListening();
+        }
+
+        main();
+
+      </script>
+  </body>
+</html>
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
