@@ -16,6 +16,8 @@ The voices are
 - Stop (ရပ်)
 - Left (ဘယ်)
 - Right (ညာ)
+- On (ဖွင့်)
+- Off (ပိတ်)
 - Background Noise 
 
 The library can be used for all purposes. (educational, entertainment, commercial)
