@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Burmese Voice',
+  title: 'Burmese Voice AI',
   tagline: 'Say in Burmese!! (ဗမာလိုပြော)',
   favicon: 'img/favicon.ico',
 
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'Burmese Voice', // Usually your repo name.
+  organizationName: 'MinSiThu', // Usually your GitHub org/user name.
+  projectName: 'burmese-voice', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Burmese Voice - ဗမာ့အသံ',
+        title: 'Burmese Voice AI - ဗမာ့အသံအေအိုင်',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -127,12 +127,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/MinSiThu/burmese-voice',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Burmese Voice.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Burmese Voice AI by Min Si Thu.`,
       },
       prism: {
         theme: lightCodeTheme,
