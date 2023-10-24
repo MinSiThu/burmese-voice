@@ -82,6 +82,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://github.com/MinSiThu/burmese-voice',
+            label: 'Creator Profile',
+            position: 'right',
+          },
         ],
       },
       footer: {

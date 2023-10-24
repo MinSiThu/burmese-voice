@@ -23,7 +23,6 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
-      <Analytics />
     </header>
   );
 }
@@ -38,6 +37,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <Analytics />
     </Layout>
   );
 }

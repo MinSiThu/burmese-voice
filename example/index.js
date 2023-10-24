@@ -23,7 +23,7 @@
 
 /**
  * @author Min Si Thu
- * @description Abstract Layers for using tensorflow and speech commands
+ * @description Abstract Layers for using tensorflow and speech commands with Burmese Voice
  * @copyright MIT, 2023 by Min Si Thu
  */
 

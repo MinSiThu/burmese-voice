@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Burmese Voice in less than 5 minutes**.
+Let's discover **Burmese Voice AI in less than 5 minutes**.
 
 ## Getting Started
 

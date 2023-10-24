@@ -3,7 +3,7 @@ slug: burmese-voice-declaration
 title: Declaration on Burmese Voice
 authors:
   name: Min Si Thu
-  title: Burmese Voice Creator
+  title: Creator of Burmese Voice AI
   url: http://github.com/MinSiThu
   image_url: https://github.com/MinSiThu.png
 tags: [burmese-voice, artificial-intelligence, myanmar, ai]
