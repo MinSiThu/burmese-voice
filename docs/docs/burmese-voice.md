@@ -10,7 +10,7 @@ The idea of the library is simple.
 
 **Create an object, load the model, and Classify the voice in Javascript. Do all very lightweight.**
 
-The library currently can classify **4** burmese words by voice and one additional noise.
+The library currently can classify **6** burmese words by voice and one additional noise.
 The voices are
 - Go (သွား)
 - Stop (ရပ်)

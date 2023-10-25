@@ -1,6 +1,6 @@
 {
   "name": "burmese-voice",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A vocie command ai library for Burmese language",
   "main": "index.js",
   "scripts": {
