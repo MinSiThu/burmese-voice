@@ -15,7 +15,9 @@ First, install burmese-voice in browser with the following script tag.
 
 ### Download the model package.
 
-Download the model package [here](/).
+Download the model package [here](https://github.com/MinSiThu/burmese-voice/releases).
+
+Include the model path as absolute path.
 
 ```html
 <!DOCTYPE html>
@@ -35,7 +37,7 @@ Download the model package [here](/).
           let burmeseVoice;
 
         async function main(){
-          const URL = "http://localhost:8000/models/";
+          const URL = "http://localhost:8000/models/"; // must be aboluste URL
           burmeseVoice = new BurmeseVoice(URL)
           await burmeseVoice.load();
           console.log(burmeseVoice.getLabels());

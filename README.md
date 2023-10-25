@@ -3,8 +3,9 @@
 A speech command ai library for Burmese language
 
 Read the documentation [Here](https://burmese-voice.vercel.app/).
+Download the model [Here](https://github.com/MinSiThu/burmese-voice/releases).
 
-The library currently can classify **4** burmese words by voice and one additional noise.
+The library currently can classify **6** burmese words by voice and one additional noise.
 The voices are
 - Go (သွား)
 - Stop (ရပ်)
