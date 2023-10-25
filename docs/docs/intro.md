@@ -61,3 +61,6 @@ Include the model path as absolute path.
   </body>
 </html>
 ```
+### Video Tutorial
+
+<iframe width="912" height="513" src="https://www.youtube.com/embed/b0SVaYKD594" title="ဗမာအသံနှင့် voice command ပေးလို့ရတဲ့ js library ကိုလေ့လာကြမယ်။" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -24,4 +24,6 @@ The library can be used for all purposes. (educational, entertainment, commercia
 
 In all fields, gaming by burmese words, internet of things controlled by burmese voice, robotics, voice control over things.
 
+
+
 For **extended premium version** of the library, please contact [archimedes557@gmail.com](mailto:archimedes557@gmail.com).
